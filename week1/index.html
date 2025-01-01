@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* Internal CSS for h2 */
+        h2 {
+            color: green;
+            text-align: center;
+            font-family: Verdana, sans-serif;
+            font-size: 80px;
+        }
+    </style>
+    <script>
+        // Internal JS
+        function calculateAndDisplay() 
+        {
+            let numbers = [10, 20, 30, 40, 50];
+            let sum = numbers.reduce((a, b) => a + b, 0);
+            let result = (sum - 40) * 30;
+            console.log("Result (Internal JS):", result);
+        }
+    </script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <p> Dhanushkumar M 22z317 - PSG College of Technology</p>
+    <h1 style="color: red; text-align: center; font-family: 'Georgia', serif; font-size: 100px;">Happy New Year 2025</h1>
+    <h2>Happy New Year 2025</h2>   
+    <h3>Happy New Year 2025</h3>
+    <h4>Happy New Year 2025</h4>
+    <h5>Happy New Year 2025</h5>
+    <h6 style="color: blue; text-align: center;">Happy New Year 2025</h6>
+
+    <h1 style ="color: red; font-size: 50px;">Arithmetic Operations</h1>
+    <button onclick="calculateAndDisplay()">Run Internal JS</button>
+    <button onclick="externalCalculation()">Run External JS</button>
+</body>
+</html>
